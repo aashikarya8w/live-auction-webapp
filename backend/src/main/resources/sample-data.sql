@@ -1,0 +1,9 @@
+INSERT INTO products (name, description, category, price, is_auction, auction_end_time, current_highest_bid, status, image_url, created_at) VALUES
+('Premium Leather Jacket', 'Genuine leather jacket, perfect for winters. Size M/L available.', 'MEN', 2999, true, NOW() + INTERVAL '2 days', 3200, 'AVAILABLE', 'https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&h=500&fit=crop', NOW()),
+('Floral Summer Dress', 'Beautiful floral print dress, lightweight and comfortable.', 'WOMEN', 1499, true, NOW() + INTERVAL '1 day', 1600, 'AVAILABLE', 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=500&h=500&fit=crop', NOW()),
+('Kids Denim Jacket', 'Stylish denim jacket for kids aged 5-10 years.', 'KIDS', 899, false, NULL, NULL, 'AVAILABLE', 'https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=500&h=500&fit=crop', NOW()),
+('Men Formal Shirt', 'Premium cotton formal shirt, slim fit. White and blue available.', 'MEN', 1299, false, NULL, NULL, 'AVAILABLE', 'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500&h=500&fit=crop', NOW()),
+('Women Ethnic Kurti', 'Beautiful hand-embroidered ethnic kurti, festive wear.', 'WOMEN', 1899, true, NOW() + INTERVAL '3 days', 2100, 'AVAILABLE', 'https://images.unsplash.com/photo-1583391733956-6c78276477e2?w=500&h=500&fit=crop', NOW()),
+('Sneakers White', 'Trendy white sneakers, unisex design. Sizes 6-11.', 'MEN', 2499, true, NOW() + INTERVAL '12 hours', 2700, 'AVAILABLE', 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop', NOW()),
+('Girls Party Dress', 'Gorgeous pink party dress for girls aged 3-8 years.', 'KIDS', 799, false, NULL, NULL, 'AVAILABLE', 'https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=500&h=500&fit=crop', NOW()),
+('Women Denim Jeans', 'High-waist slim fit denim jeans. Sizes 28-36.', 'WOMEN', 1699, false, NULL, NULL, 'AVAILABLE', 'https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500&h=500&fit=crop', NOW());
